@@ -142,16 +142,21 @@
 
 }
 
+@media (min-width: 400px) {
 .theme_bg
 {
-	background-image:none;
+	background-image:url(../images/app860land.jpg) ;
 	background-repeat:no-repeat;
 	background-size:cover;	
-	background: radial-gradient(center , circle cover , rgb(0, 0, 0) 1% , rgb(14, 9, 142) 70%);
-background: -o-radial-gradient(center , circle cover , rgb(0, 0, 0) 1% , rgb(14, 9, 142) 70%);
-background: -ms-radial-gradient(center , circle cover , rgb(0, 0, 0) 1% , rgb(14, 9, 142) 70%);
-background: -moz-radial-gradient(center , circle cover , rgb(0, 0, 0) 1% , rgb(14, 9, 142) 70%);
-background: -webkit-radial-gradient(center , circle cover , rgb(0, 0, 0) 1% , rgb(14, 9, 142) 70%);
+}
+}
+@media (min-width: 100px) and (max-width: 399px) {
+.theme_bg
+{
+	background-image:url(../images/app860port.jpg) ;
+	background-repeat:no-repeat;
+	background-size:cover;	
+}
 }
 
 
